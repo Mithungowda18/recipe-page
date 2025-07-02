@@ -1,0 +1,48 @@
+body{
+    background-color:antiquewhite;
+    background-image:url("https://cdn.pixabay.com/photo/2025/06/16/14/06/ring-necked-parakeet-9663360_1280.jpg") ;
+    background-repeat: no-repeat;
+    /* background-size: 150vw 150vh; */
+    background-size: cover;
+}
+/* .box1{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    background-color: blue;
+} */
+.box2{
+    width: 200px;
+    height: 200px;
+    border: 1px solid blue;
+    /* background-image: linear-gradient(to bottom,pink,red,green); */
+    /* background-image: linear-gradient(to top,red,yellow,purple); */
+    background-image: linear-gradient(to right,black,green,red,orange);
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    border: 1px solid blue;
+    background-image: radial-gradient(blue,green,red);
+}
+.box4{
+     width: 200px;
+    height: 200px;
+    border: 1px solid blue;
+    border-radius: 50%;
+    background-image: radial-gradient(blue,orange,green);
+}
+.box5{
+     width: 200px;
+    height: 200px;
+    border: 1px solid blue;
+    /* background-image: repeating-linear-gradient(to top,orange 0 20px,green 20px 40px,blue 40px 60px); */
+     background-image: repeating-linear-gradient(to top,orange ,green,blue);
+}
+.box6{
+    width: 200px;
+    height: 200px;
+    border: 1px solid blue;
+    border-radius: 50%;
+    background-image: repeating-radial-gradient(red 0 20px,blue 20px 40px,yellow 40px 60px);
+}
